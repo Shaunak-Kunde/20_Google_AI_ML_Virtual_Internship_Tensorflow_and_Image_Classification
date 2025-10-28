@@ -1,5 +1,5 @@
-🚀 Google EduSkills – AICTE Virtual Internship
-TensorFlow + Computer Vision + CNN
+## 🚀 Google EduSkills – AICTE Virtual Internship
+## TensorFlow + Computer Vision + CNN
 
 👨‍🎓 Shaunak S. Kunde – ME (Data Science)
 📅 August 2025 Submission
