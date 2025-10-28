@@ -1,148 +1,105 @@
-# 20_Google_AI_ML_Virtual_Internship_Tensorflow_and_Image_Classification
-This repo contains the jupyter notebook used for my first module in the Google AI ML Virtual Internship Program. Content #1 Tensorflow Intro  #2 Computer vision #3 CNN #4 Build CNN to enhance computer vision #5 CNN with Complex Images #6 CNN with larger dataset
+📌 AI/ML – Google EduSkills AICTE Internship
 
-📘 Google AI-ML Virtual Internship – Module 1
-✅ Intro to TensorFlow & Computer Vision — Jupyter Notebook
+📅 Date: 12-08-2025
+🎓 ME Data Science – Semester 3
+🏢 Google EduSkills AICTE Internship Task
+🇮🇳 India
 
-This repository contains the Jupyter notebook completed as part of Module 1 in the Google AI-ML Virtual Internship Program organized by AICTE & EduSkills.
+✅ Project Overview
 
-The notebook demonstrates core concepts of Deep Learning and Computer Vision using TensorFlow and Keras, progressing from simple regression to advanced CNN-based image classification.
+This notebook covers two major components from the Intro to TensorFlow and Computer Vision modules.
+The objective is to demonstrate the complete workflow of:
 
-📂 Repository Structure
-📁 Google-AI-ML-Module1
- └── 📄 Shaunak_Eduskills_AIML_1_Intro_to_Tensorflow.ipynb
- └── 📄 README.md  ← (this file)
+✅ Building and training neural networks
 
-🎯 Learning Objectives
+✅ Document retrieval using Vector Space Model
 
-✔ Understand neural network basics using TensorFlow
-✔ Build a simple regression model
-✔ Apply computer vision techniques with CNNs
-✔ Work with real-world datasets like MNIST and CIFAR-10
-✔ Improve model performance using deeper architectures
+✅ Applying TF-IDF and Cosine Similarity
 
-📚 Contents Covered
-1️⃣ Introduction to TensorFlow
+✅ Deep learning model development with real datasets
 
-Importing and using TensorFlow
+✅ Computer Vision classification using Fashion MNIST
 
-Understanding tensors, layers, and optimizers
+🔍 Module 1 — Machine Learning Introduction
 
-Building a basic feed-forward neural network
+A single-layer neural network (Dense Linear Regression Model) was implemented using TensorFlow Keras:
 
-Example: Predicting a numerical relationship using regression
+✔ Key Steps:
 
-📌 Concepts Included:
+Model: Dense(units=1)
 
-Loss function (MSE)
+Loss: Mean Squared Error
 
-Optimizer (Adam)
+Optimizer: Stochastic Gradient Descent (SGD)
 
-Epoch-based learning
+Training Data:
 
-Model prediction using .predict()
+Input: xs = [-1, 0, 1, 2, 3, 4]
 
-2️⃣ Basics of Computer Vision
+Target: ys = [-2, 1, 4, 7, 10, 13]
 
-Introduction to pixel-based data
+Epochs: 50
 
-Loading basic image datasets (ex: MNIST digits)
+📈 Model Inference:
 
-Normalizing image data
+Input = 10 → Output ≈ 31.09
 
-Visualizing training samples
+👁️ Module 2 — Computer Vision with TensorFlow
 
-📌 Focus Areas:
+Dataset used: Fashion MNIST
 
-Grayscale vs RGB images
+✔ Workflow:
 
-Flattening vs image tensors
+Dataset loading and sample visualization
 
-3️⃣ Convolutional Neural Networks (CNN)
+Pixel normalization for faster convergence
 
-Why CNNs are used for images
+Model training and performance measurement
 
-Convolution, Filters, Pooling layers
+✔ Model Architecture:
+Flatten → Dense(128, ReLU) → Dense(10, Softmax)
 
-Activation functions (ReLU, Softmax)
+✔ Performance:
 
-📌 Architecture Demonstrated:
+Loss: Sparse Categorical Crossentropy
 
-Conv2D → MaxPool → Flatten → Dense → Output
+Optimizer: Adam
 
-4️⃣ Enhancing CNN for Better Feature Extraction
+Epochs: 5
+✅ Achieved ~78–80% accuracy
 
-Multiple convolutional layers
+📚 Information Retrieval System (IRS)
 
-Increasing filter depth
+Complete Document Search Pipeline implemented:
 
-Dropout for overfitting control
+Stage	Status	Method
+Document Input	✅	Local .docx files
+Preprocessing	✅	Text cleanup & merging
+Feature Extraction	✅	TF-IDF
+Vector Representation	✅	Vector Space Model
+Similarity Ranking	✅	Cosine Similarity
+Output Retrieval	✅	Top matching document
 
-Accuracy improvements
+Result: Most relevant document returned for user queries.
 
-📌 Model Evaluation:
-
-Accuracy & Loss visualization
-
-Training vs Validation performance
-
-5️⃣ CNN with Complex Images
-
-Handling multi-channel RGB images
-
-Recognizing multiple object categories
-
-Increasing computational complexity
-
-🧠 Dataset Example:
-
-FashionMNIST or similar colorful dataset
-
-6️⃣ CNN with Larger Dataset (Scalability)
-
-CIFAR-10 dataset exploration (10 classes)
-
-Data augmentation to reduce overfitting
-
-Improved inference capability on unseen images
-
-📈 Final Results Showcase:
-
-Model accuracy reported
-
-Predictions on sample test images
-
-🛠 Technologies Used
-Category	Tools / Libraries
+🛠️ Tech Stack
+Category	Tools
+Code	Python
 Deep Learning	TensorFlow, Keras
-Programming	Python
+NLP & IR	TF-IDF, Cosine Similarity
 Visualization	Matplotlib
-Datasets	MNIST, CIFAR-10
-▶️ How to Run the Notebook
+Dataset	Fashion MNIST
+📎 Skills Demonstrated
 
-Option A — Google Colab (Recommended ✅)
-Upload the .ipynb file → Run cells sequentially
-Colab provides GPU support for CNN training.
+✅ Linear regression using DL models
+✅ Neural network training and prediction
+✅ Computer Vision classification
+✅ Information retrieval concepts
+✅ TF-IDF vectorization + Cosine similarity scoring
+✅ ML model evaluation & visualizations
 
-Option B — Local System
+🙌 Acknowledgement
 
-pip install tensorflow numpy matplotlib
-jupyter notebook
-
-📌 What I Learned from This Module
-
-✔ End-to-end workflow of building Neural Networks
-✔ How CNNs extract visual features
-✔ Performance optimization techniques
-✔ Evaluating ML models with real-world datasets
-
-📜 Program & Author
-
-Program: Google AI-ML Virtual Internship (EduSkills + AICTE)
-Intern: Shaunak Damodar Sinai Kunde
-Domain: Data Science & AI
-
-📍 Goa, India
-🔗 GitHub: https://github.com/Shaunak-Kunde
-
-🔗 LinkedIn: https://www.linkedin.com/in/shaunak-kunde-8a44451a0/
+Developed as part of:
+Google EduSkills AI-ML Internship Program
+(Approved by AICTE)
