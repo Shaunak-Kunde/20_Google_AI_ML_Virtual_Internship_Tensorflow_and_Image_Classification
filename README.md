@@ -1,104 +1,150 @@
-📌 AI/ML – Google EduSkills AICTE Internship
+🚀 Google EduSkills – AICTE Virtual Internship
+TensorFlow + Computer Vision + CNN
 
-📅 Date: 12-08-2025
-🎓 ME Data Science – Semester 3
-🏢 Google EduSkills AICTE Internship Task
-🇮🇳 India
+👨‍🎓 Shaunak S. Kunde – ME (Data Science)
+📅 August 2025 Submission
 
-✅ Project Overview
+✅ Module Overview
+Module	Name
+#1	ML Introduction using TensorFlow
+#2	Computer Vision with Neural Networks
+#3	Convolutional Neural Networks
+#4	Build CNN Model to Improve CV Performance
+#5	CNN with Complex Images (Horses vs Humans)
+#6	CNN with Larger Dataset (Cats vs Dogs)
+📌 Module #1 — ML Introduction using TensorFlow
 
-This notebook covers two major components from the Intro to TensorFlow and Computer Vision modules. The workflow includes:
+Introduction to deep learning workflow using Sequential models.
 
-Building & training neural networks
+Key Concepts
 
-Document retrieval using Vector Space Model
+Dense networks
 
-TF-IDF + Cosine Similarity
+Loss minimization
 
-Deep learning with real datasets
+Gradient descent training
 
-Fashion MNIST classification
+Implementation Highlights
 
-🧠 Module 1 — Machine Learning Introduction
-🔹 Model Description
+Regression with Dense(1)
 
-A single-layer neural network (Dense Linear Regression Model) using TensorFlow Keras.
+Model learns linear relationship
 
-✔ Dataset
+Visual + numerical output validated
 
-Inputs: [-1, 0, 1, 2, 3, 4]
+📌 Module #2 — Computer Vision using Neural Networks
 
-Outputs: [-2, 1, 4, 7, 10, 13]
+Classification using Fashion-MNIST.
 
-✔ Model Configuration
+Model Summary
+Layer	Description
+Flatten	Convert 28×28 → 784
+Dense	128 units, ReLU
+Dense	10 units, Softmax
+Outputs
 
-Layer: Dense(units=1)
+✅ Accuracy improving across epochs
+✅ Label prediction visualization
 
-Loss: Mean Squared Error
+📌 Module #3 — Convolutional Neural Networks
 
-Optimizer: SGD
+Moving from dense to CNN architecture.
 
-Epochs: 50
+Key CNN Components
 
-📈 Output
+Convolution filters
 
-Input 10 → Prediction ≈ 31.09
+Feature extraction
 
-👁️ Module 2 — Computer Vision with TensorFlow
-🔹 Dataset
+MaxPooling
 
-Fashion MNIST
+Activation maps
 
-Includes 10 clothing categories (images: 28×28 grayscale)
+Architecture Prototype
+Conv2D → MaxPool → Flatten → Dense → Output
 
-🔹 Model Architecture
-Flatten → Dense(128, ReLU) → Dense(10, Softmax)
 
-🔹 Training Details
+✅ Better accuracy than Module #2
+✅ Less overfitting on visual tasks
 
-Loss: Sparse Categorical Crossentropy
+📌 Module #4 — Build CNN to Enhance Computer Vision
 
-Optimizer: Adam
+Apply improved CNN to complex patterns in Fashion-MNIST.
 
-Epochs: 5
+Improvements Introduced
 
-✅ Accuracy ≈ 78–80%
+Additional convolution layers
 
-📚 Module 3 — Information Retrieval System (IRS)
+Higher feature depth
 
-A complete text-based document search system.
+Dropout regularization
 
-🔹 Processing Pipeline
-Step	Status	Technique
-Data Input	✅	Local .docx files
-Preprocessing	✅	Stopword removal, merging
-Feature Extraction	✅	TF-IDF
-Vector Space Modeling	✅	Dense vectors
-Ranking	✅	Cosine Similarity
-Output	✅	Top matching document
-🛠️ Tech Stack
-Category	Tools
-Language	Python
-Deep Learning	TensorFlow, Keras
-NLP & IR	TF-IDF, Cosine Similarity
-Dataset	Fashion MNIST
-Visuals	Matplotlib
-🧩 Skills Demonstrated
+Results
 
-Neural network development
+✅ Significant accuracy boost on test images
+✅ Better edge/texture extraction
 
-CV model training & evaluation
+📌 Module #5 — CNN with Complex Images
 
-Similarity-based document retrieval
+Dataset: Horses vs Humans
+(Real-world binary classification)
 
-Vector Space Model fundamentals
+Techniques Used
 
-TF-IDF and cosine similarity implementation
+Data normalization
 
-Result visualization & interpretation
+ImageDataGenerator based loaders
 
-🙌 Acknowledgement
+Binary cross entropy loss
 
-Project completed under:
-Google EduSkills AI-ML Internship Program
-Approved by AICTE
+Observations
+
+✅ CNN learns high-level object features
+✅ Validation accuracy tracked
+✅ Overfitting addressed with augmentation
+
+📌 Module #6 — CNN with Larger Dataset
+
+Dataset: Cats vs Dogs
+(~25,000 images)
+
+Key Focus
+
+Train/Test directory split
+
+Handling corrupted images
+
+Efficient input pipeline
+
+Storage management
+
+Enhancements
+
+Deeper convolution stack
+
+Real-world generalization
+
+Final trained model evaluation
+
+✅ Demonstrates scalable computer vision pipeline
+✅ Better robustness vs. small datasets
+
+✅ Skills & Tools Used
+
+TensorFlow 2.19
+
+Keras CNN Layers
+
+Computer Vision Basics
+
+Data Augmentation
+
+Model Evaluation Techniques
+
+🎯 Final Conclusion
+
+Through Modules 1–6:
+
+✔ Progressed from basic ML → Deep CV → Large CNNs
+✔ Achieved advanced learning outcomes set by EduSkills
+✔ All models executed and validated in Jupyter Notebook
