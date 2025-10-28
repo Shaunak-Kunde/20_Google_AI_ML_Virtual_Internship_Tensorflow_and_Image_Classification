@@ -12,7 +12,8 @@ Module	Name
 #4	Build CNN Model to Improve CV Performance
 #5	CNN with Complex Images (Horses vs Humans)
 #6	CNN with Larger Dataset (Cats vs Dogs)
-📌 Module #1 — ML Introduction using TensorFlow
+
+# 📌 Module #1 — ML Introduction using TensorFlow
 
 Introduction to deep learning workflow using Sequential models.
 
@@ -32,7 +33,7 @@ Model learns linear relationship
 
 Visual + numerical output validated
 
-📌 Module #2 — Computer Vision using Neural Networks
+# 📌 Module #2 — Computer Vision using Neural Networks
 
 Classification using Fashion-MNIST.
 
@@ -46,7 +47,7 @@ Outputs
 ✅ Accuracy improving across epochs
 ✅ Label prediction visualization
 
-📌 Module #3 — Convolutional Neural Networks
+# 📌 Module #3 — Convolutional Neural Networks
 
 Moving from dense to CNN architecture.
 
@@ -67,7 +68,7 @@ Conv2D → MaxPool → Flatten → Dense → Output
 ✅ Better accuracy than Module #2
 ✅ Less overfitting on visual tasks
 
-📌 Module #4 — Build CNN to Enhance Computer Vision
+# 📌 Module #4 — Build CNN to Enhance Computer Vision
 
 Apply improved CNN to complex patterns in Fashion-MNIST.
 
@@ -84,7 +85,7 @@ Results
 ✅ Significant accuracy boost on test images
 ✅ Better edge/texture extraction
 
-📌 Module #5 — CNN with Complex Images
+# 📌 Module #5 — CNN with Complex Images
 
 Dataset: Horses vs Humans
 (Real-world binary classification)
@@ -103,7 +104,7 @@ Observations
 ✅ Validation accuracy tracked
 ✅ Overfitting addressed with augmentation
 
-📌 Module #6 — CNN with Larger Dataset
+# 📌 Module #6 — CNN with Larger Dataset
 
 Dataset: Cats vs Dogs
 (~25,000 images)
@@ -129,7 +130,7 @@ Final trained model evaluation
 ✅ Demonstrates scalable computer vision pipeline
 ✅ Better robustness vs. small datasets
 
-✅ Skills & Tools Used
+# ✅ Skills & Tools Used
 
 TensorFlow 2.19
 
@@ -141,7 +142,7 @@ Data Augmentation
 
 Model Evaluation Techniques
 
-🎯 Final Conclusion
+# 🎯 Final Conclusion
 
 Through Modules 1–6:
 
