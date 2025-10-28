@@ -7,99 +7,98 @@
 
 ✅ Project Overview
 
-This notebook covers two major components from the Intro to TensorFlow and Computer Vision modules.
-The objective is to demonstrate the complete workflow of:
+This notebook covers two major components from the Intro to TensorFlow and Computer Vision modules. The workflow includes:
 
-✅ Building and training neural networks
+Building & training neural networks
 
-✅ Document retrieval using Vector Space Model
+Document retrieval using Vector Space Model
 
-✅ Applying TF-IDF and Cosine Similarity
+TF-IDF + Cosine Similarity
 
-✅ Deep learning model development with real datasets
+Deep learning with real datasets
 
-✅ Computer Vision classification using Fashion MNIST
+Fashion MNIST classification
 
-🔍 Module 1 — Machine Learning Introduction
+🧠 Module 1 — Machine Learning Introduction
+🔹 Model Description
 
-A single-layer neural network (Dense Linear Regression Model) was implemented using TensorFlow Keras:
+A single-layer neural network (Dense Linear Regression Model) using TensorFlow Keras.
 
-✔ Key Steps:
+✔ Dataset
 
-Model: Dense(units=1)
+Inputs: [-1, 0, 1, 2, 3, 4]
+
+Outputs: [-2, 1, 4, 7, 10, 13]
+
+✔ Model Configuration
+
+Layer: Dense(units=1)
 
 Loss: Mean Squared Error
 
-Optimizer: Stochastic Gradient Descent (SGD)
-
-Training Data:
-
-Input: xs = [-1, 0, 1, 2, 3, 4]
-
-Target: ys = [-2, 1, 4, 7, 10, 13]
+Optimizer: SGD
 
 Epochs: 50
 
-📈 Model Inference:
+📈 Output
 
-Input = 10 → Output ≈ 31.09
+Input 10 → Prediction ≈ 31.09
 
 👁️ Module 2 — Computer Vision with TensorFlow
+🔹 Dataset
 
-Dataset used: Fashion MNIST
+Fashion MNIST
 
-✔ Workflow:
+Includes 10 clothing categories (images: 28×28 grayscale)
 
-Dataset loading and sample visualization
-
-Pixel normalization for faster convergence
-
-Model training and performance measurement
-
-✔ Model Architecture:
+🔹 Model Architecture
 Flatten → Dense(128, ReLU) → Dense(10, Softmax)
 
-✔ Performance:
+🔹 Training Details
 
 Loss: Sparse Categorical Crossentropy
 
 Optimizer: Adam
 
 Epochs: 5
-✅ Achieved ~78–80% accuracy
 
-📚 Information Retrieval System (IRS)
+✅ Accuracy ≈ 78–80%
 
-Complete Document Search Pipeline implemented:
+📚 Module 3 — Information Retrieval System (IRS)
 
-Stage	Status	Method
-Document Input	✅	Local .docx files
-Preprocessing	✅	Text cleanup & merging
+A complete text-based document search system.
+
+🔹 Processing Pipeline
+Step	Status	Technique
+Data Input	✅	Local .docx files
+Preprocessing	✅	Stopword removal, merging
 Feature Extraction	✅	TF-IDF
-Vector Representation	✅	Vector Space Model
-Similarity Ranking	✅	Cosine Similarity
-Output Retrieval	✅	Top matching document
-
-Result: Most relevant document returned for user queries.
-
+Vector Space Modeling	✅	Dense vectors
+Ranking	✅	Cosine Similarity
+Output	✅	Top matching document
 🛠️ Tech Stack
 Category	Tools
-Code	Python
+Language	Python
 Deep Learning	TensorFlow, Keras
 NLP & IR	TF-IDF, Cosine Similarity
-Visualization	Matplotlib
 Dataset	Fashion MNIST
-📎 Skills Demonstrated
+Visuals	Matplotlib
+🧩 Skills Demonstrated
 
-✅ Linear regression using DL models
-✅ Neural network training and prediction
-✅ Computer Vision classification
-✅ Information retrieval concepts
-✅ TF-IDF vectorization + Cosine similarity scoring
-✅ ML model evaluation & visualizations
+Neural network development
+
+CV model training & evaluation
+
+Similarity-based document retrieval
+
+Vector Space Model fundamentals
+
+TF-IDF and cosine similarity implementation
+
+Result visualization & interpretation
 
 🙌 Acknowledgement
 
-Developed as part of:
+Project completed under:
 Google EduSkills AI-ML Internship Program
-(Approved by AICTE)
+Approved by AICTE
