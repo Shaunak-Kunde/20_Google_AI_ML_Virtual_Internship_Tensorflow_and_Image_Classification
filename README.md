@@ -5,7 +5,7 @@
 📅 August 2025 Submission
 
 ✅ Module Overview
-Module	Name
+Module  Name
 #1	ML Introduction using TensorFlow
 #2	Computer Vision with Neural Networks
 #3	Convolutional Neural Networks
@@ -13,7 +13,7 @@ Module	Name
 #5	CNN with Complex Images (Horses vs Humans)
 #6	CNN with Larger Dataset (Cats vs Dogs)
 
-# 📌 Module #1 — ML Introduction using TensorFlow
+# 📌 Module #1 — ML Introduction using TensorFlow 
 
 Introduction to deep learning workflow using Sequential models.
 
